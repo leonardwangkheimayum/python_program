@@ -104,7 +104,7 @@
 
 
 #assignment operator
-=
+#=
 
 # a=1
 # b=2
@@ -113,3 +113,34 @@
 #
 # a=a+1 -> a+=1
 # a=a+12 -> a+=12
+#a
+# a=int(input("Enter a number"))
+# b=int(input("Enter a number"))
+# c=a+b
+# print(c)
+# if(a<b):
+#     print("a<b")
+# elif(a==b):
+#     print("a=b")
+# else:
+#     print("a>b")
+
+# a=int(input("Enter number a"))
+# b=int(input("Enter number b"))
+# c=int(input("Enter  number c"))
+# if(a>b and a>c):
+#     print("a is greater")
+# elif(b>a and b>c):
+#     print(("B is greater"))
+# elif(a==b and b==c):
+#     print("All Number are same")
+#
+# else:
+#     print("C is greater")
+a=1
+while(a<10):
+    print(a)
+    a=a+1
+#Q1.Find the given number is odd or even(if)
+#Q2.Reverse the number(while loop)
+#Q3.Find the given years is leap year.(if)
