@@ -141,6 +141,7 @@ a=1
 while(a<10):
     print(a)
     a=a+1
+#Task 1
 #Q1.Find the given number is odd or even(if)
 #Q2.Reverse the number(while loop)
 #Q3.Find the given years is leap year.(if)
