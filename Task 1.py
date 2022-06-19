@@ -49,8 +49,16 @@
 # for a in range(10,20,2):
 #     print("a",a)
 # for a in range (100,20,-2):
-#     print(a)
-a="python"
+ #     print(a)
+# a="anamika"
+# for i in a:
+#     print(i)
+# print(a[::-1])
+# a="anamika""potsangbam"
+# for i in a:
+#     print(i)
+# print(a[::-1])
+a="98762"
 for i in a:
     print(i)
 print(a[::-1])
