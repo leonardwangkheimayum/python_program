@@ -58,7 +58,36 @@
 # for i in a:
 #     print(i)
 # print(a[::-1])
-a="98762"
-for i in a:
-    print(i)
-print(a[::-1])
+# i,temp=0,0
+# n = int(input("please give a number : "))
+# for i in range(2,n//2):
+#     if n%i == 0:
+#         temp=1
+#         break
+# if temp == 1:
+#     print("given number is not prime")
+# else:
+#     print("given number is prime")
+#
+# # Python program to check if the number is an Armstrong number or not
+#
+# # take input from the user
+# num = int(input("Enter a number: "))
+#
+# # initialize sum
+# sum = 0
+
+# find the sum of the cube of each digit
+num=int(input("enter a number"))
+sum=0
+temp = num
+while temp > 0:
+   digit = temp % 10
+   sum = sum+ digit ** 3
+   temp //= 10
+
+# display the result
+if num == sum:
+   print(num,"is an Armstrong number")
+else:
+   print(num,"is not an Armstrong number")
