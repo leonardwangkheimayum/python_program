@@ -53,27 +53,47 @@
 #     a.remove("")
 # print(a)
 # ABC input output wil be ZYX
-a=[]
-for i in range(65,91):
-    a.append(chr(i))
-print(a)
-# T=input("enter the word")
-T="ABCD"
-for i in T:
-    if(i in a):
-        b=a.index(i)
-        print(a[25-b],end="")
-
-#Python123 seperate word and number
-a="Python123"
-word=""
-number=""
-for i in a:
-    if(i.isdigit):
-        number=number+i
-    else:
-        word=word+i
-print(word)
-print(number)
+# a=[]
+# for i in range(65,91):
+#     a.append(chr(i))
+# print(a)
+# # T=input("enter the word")
+# T="ABCD"
+# for i in T:
+#     if(i in a):
+#         b=a.index(i)
+#         print(a[25-b],end="")
+#
+# #Python123 seperate word and number
+# a="Python123"
+# word=""
+# number=""
+# for i in a:
+#     if(i.isdigit):
+#         number=number+i
+#     else:
+#         word=word+i
+# print(word)
+# print(number)
 # a=["a","b","c"] a should be replace with b and b=c ,c=c.
 
+# a=2
+# for i in range(1,11,1):
+#     product=2*i
+#     print(product)
+#
+#Dictionary
+a={"name":"Pillu","Age":23,"Blood Group":"A"}
+a["Address"]="Uripok"
+print(a)
+a["name"]="Leonard"
+print(a)
+del a["name"]
+print(a)
+a.pop("Age")
+print(a)
+a.popitem()
+print(a)
+print(a.keys())
+print(a.values())
+print(a.items())
